@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Configurando o Body */
+body{
+    /* Adicionando a imagem no fundo da tela */
+    background-color: #05072F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+/* Configurando o Header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #141864;
+    width: 100%;
+    
+}
+.text{
+    margin-left: 80px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+footer{
+    height: 100px;
+    background-color: #141864;
+    width: 100%;
+}
+
+/* Adiciona o . pois se trata de uma classe */
+.logo{
+    /* Define uma Largura para o Logo */
+    width: 80px;
+    margin-top: 20px;
+}
+
+a{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 40px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    color: red;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 10;
+    background:none;
+    border: none;
+}
+
+h1{
+    font-size: 120px;
+    width: 500px;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 79.5vh;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.cent{
+    width: 50%;
+    right: 10px;
+    height: 100%;
+}
+
+.clouds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    position: relative;
+
+
+}
+
+span{
+    color: red;
+
+
+}
+
+p{
+    color: white;
+    font-size: 35px;
+    display: flex;
+
+}
+h2{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    
+}
+
+.download{
+    background-color: red;
+    color: aliceblue;
+    width: 250px;
+    height: 70PX;
+    border-radius: 50px;
+    font-size: 25px;
+
+}
+
+.trial{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 250px;
+    height: 70PX;
+    border-radius: 70px;
+    font-size: 25px;
+    
+}
+
+.submit{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
